@@ -1,0 +1,101 @@
+body {
+    background-color: #35577D;
+    font-family: sans-serif;
+}
+
+h1 {
+	font-family: Helvetica;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+  float: center;
+}
+
+p {
+	font-family: "Arial";
+	text-align: left;
+}
+
+.header {
+  font-family: "Arial", sans-serif;
+  font-size: 14px;
+  font-weight: 900;
+  line-height: 1.25;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.header li {
+  display: inline-block;
+}
+
+.header a {
+  display: block;
+  color: #4A4A4A;
+  padding: 30px 20px;
+}
+
+a.home {
+  color: #4D00FF;
+}
+
+@media only screen and (max-width: 535px) {
+  .header {
+    font-size: 14px;
+  }
+
+  .header a {
+    padding: 30px 20px;
+  }
+
+  a.home {
+    display: none;
+  }
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
