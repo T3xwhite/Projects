@@ -1,0 +1,15 @@
+body {
+	background: rgb(7,0,79);
+	background: linear-gradient(137deg, rgba(7,0,79,1) 0%, rgba(48,59,255,1) 50%, rgba(239,220,0,1) 100%);
+}
+
+h1 {
+	font-family: "Anton";
+	font-weight: bold;
+	text-align: center;
+}
+
+p {
+	font-family: "Arial";
+	text-align: left;
+}
