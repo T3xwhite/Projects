@@ -1,1 +1,5 @@
-# Project for Website Containing Personal Projects
+# Tex White Projects
+
+## Snake Project
+
+## Covid Tracker Project
